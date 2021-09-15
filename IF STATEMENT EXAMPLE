@@ -1,0 +1,21 @@
+ #include <stdio.h>
+
+int main()
+{
+ int num;
+ printf("Enter any integer number:");
+ scanf("%d",&num);
+ if(num>20)
+ {
+     printf("\nThe given number is greater than 20");
+ }
+    
+ return 0;
+}
+
+
+OUTPUT
+
+Enter any integer number:25
+
+The given number is greater than 20
