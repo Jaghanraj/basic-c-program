@@ -1,0 +1,38 @@
+ #include <stdio.h>
+
+int main()
+{
+
+ int n;
+ printf("Enter any integer value of n:");
+ scanf("%d",&n);
+ if(!n==0)
+ {
+     if(n%2==0)
+     {
+         printf("The given number is even");
+     }
+     else{
+         printf("The given number is odd");
+     }
+ }
+     else
+     {
+         printf("Enter valid number (without zero)");
+         
+     }
+ 
+ return 0;
+ 
+}
+
+  OUTPUT
+  
+Enter any integer value of n:10
+The given number is even
+
+Enter any integer value of n:3
+The given number is odd
+
+Enter any integer value of n:0
+Enter valid number (without zero)
