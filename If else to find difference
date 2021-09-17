@@ -1,0 +1,23 @@
+ #include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("Enter an integer:");
+    scanf("%d%d",&a,&b);
+    {
+        if(a>b){
+            c=a-b;
+        }
+        else if(b>a){
+            c=b-a;
+        }
+        printf("%d",c);
+    }
+}
+
+
+output
+
+Enter an integer:9 3
+6
