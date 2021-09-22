@@ -1,0 +1,21 @@
+ #include <stdio.h>
+
+int main()
+{
+    int i,n,sum;
+    printf("Enter the value of n:");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    printf("The summation value is =%d",sum);
+
+    return 0;
+}
+
+
+output
+
+Enter the value of n:10
+The summation value is =55
