@@ -1,0 +1,19 @@
+ #include <stdio.h>
+
+int main()
+{
+  int a,b,value;
+  printf("Enter the values for a and b:");
+  scanf("%d%d",&a,&b);
+  value = (a%2==0)?printf("the given num is even"):printf("the given num is odd");
+  value = (b%2==0)?printf("\nthe given num is even"):printf("\nthe given num is odd");
+  return 0;
+}
+
+
+output
+
+
+Enter the values for a and b:11 12
+the given num is odd
+the given num is even
