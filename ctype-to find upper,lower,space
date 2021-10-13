@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<ctype.h>
+int main()
+{
+  char ch;
+  printf("Enter a charecter :");
+  scanf("%c",&ch);
+  if(isupper(ch))
+  printf("%c is uppercase \n",ch);
+  else if(islower(ch))
+  printf("%c is lowercase \n",ch);
+  else if(isspace(ch))
+  printf("%c is space \n",ch);
+  else
+  printf("%c is none from uppercase,lowercase,space \n",ch);
+  return 0;
+}
+
+
+output
+
+Enter a charecter :7
+7 is none from uppercase,lowercase,space 
